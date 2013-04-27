@@ -1,0 +1,178 @@
+/*Global Styles*/
+body { width:1200px; padding: auto; margin: 10px; position: relative; left: 50px; font-family:"Tahoma", Tahoma, sans-serif; }
+div.clear { clear: both; }
+
+input.homePageSearchBox { width: 452px; height: 30px; padding:0 10px 0 10px; background-color: #efefef; border: 1px groove #4e4e4e; -moz-border-radius:8px; -webkit-border-radius:8px; -border-radius:8px; font-size:13pt; }
+#searchbutt {height: 30px; background-color: #efefef; border: 1px groove #4e4e4e; -moz-border-radius:8px; -webkit-border-radius:8px; -border-radius:8px; font-size:13pt;}
+.homesearchbox select { height: 30px;  padding:0 10px 0 10px; background-color: #efefef; border: 1px groove #4e4e4e; -moz-border-radius:8px; -webkit-border-radius:8px; -border-radius:8px; font-size:13pt; }
+div.homesearchbox { padding:8px 0 8px 300px; margin-left:12px; margin-top:-5px ; background-color:#587aaf; -moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px; border-bottom-left-radius:5px; border-bottom-right-radius:5px; }
+div.status { width:450px; }
+.status p { font-size: 15px; text-align: center; }
+.status span.error { font-size: 15px; text-align: center; color: red; }
+.status p.success { font-size: 15px; text-align: center; color: green; }
+p.error { width: 100%; text-align: center; color: red; font-size: 18px; }
+p.info  { width: 100%; text-align: center; color: #333; font-size: 16px; padding: 10px 10px; background-color: green;}
+
+/*header styles*/
+div.header { background-color: #285a9f; -moz-border-radius:5px; -webkit-border-radius:5px; -border-radius:5px; width: 100%; height: 90px; margin: 5px; padding:3px 2px 8px 2px; }
+.header div.logo { width: 25%; height: 50px; float: left; cursor: pointer; margin:0 0 3px 10px}
+.header div.logo div.right span.header-title { font-size: 20px; color: white; }
+.header div.right {padding:10px 0 0 20px; }
+.header div.loggedin { width: 70%; float: right; text-align: right; }
+div.loggedin {padding:12px 10px 0 0;}
+.loggedin a { color:white; font-weight:bold; }
+.header div.loggedin span.logged { font-size: 15px; text-align: right; position: relative; top: 5px; right: 8px; color: white; }
+.loggedin span.username { font-size: 16px; font-weight: bold; }
+.loggedin a { padding: 1px 3px 1px 3px; }
+img.logo-image { width: 120px; height: 45px; margin: 2px; }
+.header div.menu { height: 35px; margin: 20px; }
+.header { width: 100%; }
+div.menu { background-color: #333; width:55%; padding: 5px 0 0 25px; -moz-border-radius:5px; -webkit-border-radius:5px; -border-radius:5px; }
+.menu ul{ margin: 0; padding: 0; float: left;}
+.menu ul li{ display: inline; margin:0 5px 0 5px; }
+.menu ul li a{ float: left; text-decoration: none; color: white; padding: 6px 11px; margin:0 5px; }
+.menu ul li a:visited{ color: white; }
+.menu ul li a:hover, .menu ul li.current{ color: #fff; background-color:#285aaf; -moz-border-radius:5px; -webkit-border-radius:5px; -border-radius:5px; }
+    
+
+/*login styles*/
+.login-container fieldset { width: 500px; position: relative; left: 300px; border: none; border-top: 1px solid #4d4d4d; margin-top: 25px; }
+.login-container div.status { position: relative; left: 300px; top: 0px; }
+.login legend { font-style: italic; font-family: tahoma; font-size: 13px; }
+.login table { font-family: tahoma; position: relative; left: 10px; }
+.login td.left { text-align: right; padding-right: 4px; font-size: 15px; font-family: verdana; }
+.login input {  width: 200px; border:1px solid #999; padding:3px 5px; -moz-border-radius:8px; border-radius:8px; }
+.login button[type='submit'] .submit { width: 50px; height: 30px; color: green; }
+.login span.required { color: red; }
+div.login-container button[type='submit'] { border:1px groove #3d3d3d; -moz-border-radius:5px; border-radius:5px; }
+
+/*admin styles*/
+.admin div { float: left; width: 600px;  }
+.admin p.title { font-size: 19px; color: brown; width: 100%; text-align: center; }
+div.admin-statistics { float: left; }
+.admin-statistics p.header { font-size: 18px; color: #4d4d4d; margin-left: 12px; }
+.admin-statistics table { color: #666; position: relative; left: 20px; }
+.admin-statistics td.label { width: 250px; text-align: right; padding-right: 12px; }
+div.admin-menu { float: left; width: 200px; }
+.admin-menu li { list-style: none; width: 100px; height: 25px; border: 1px solid skyblue; text-align: center; cursor: pointer; margin-top: 2px; }
+.admin-menu span { padding: 2px; font-family: tahoma; font-size: 14px; color: green; padding-top: 1px; }
+div.admin-description { position: relative; left: 100px; }
+.admin-description p.user-data { font-size: 18px; font-family: tahoma; width: 970px; margin: 8px; height: 90px; border-bottom: 1px solid #4d4d4d; border-top: 1px solid #4d4d4d; padding-top: 10px; text-align: center; }
+
+
+/* admin-add-movie styles */
+.admin-add-movie p { font-family: tahoma; font-size: 16px; margin: 15px; margin-left: 100px; width: 800px;  text-align: center; }
+.admin-add-movie span.highlight { background: #00FF00; padding: 1px 10px; }
+.admin-add-movie fieldset { width: 500px; position: relative; left: 300px; border: none; border-top: 1px solid #4d4d4d; margin-top: 25px; }
+.add-movie legend { font-style: italic; font-family: tahoma; font-size: 13px; }
+.add-movie table { font-family: tahoma; position: relative; left: 10px; }
+.add-movie td.left { text-align: right; padding-right: 4px; font-size: 15px; font-family: verdana; }
+.add-movie input {  width: 200px; border:1px solid #999; padding:3px 5px; }
+.add-movie button[type='submit'] .submit { width: 50px; height: 30px; color: green; }
+.add-movie span.required { color: red; }
+
+
+/*select genre view - admin*/
+div.select-genre { width: 1100px; position: relative; left: 50px; }
+.select-genre p.title { font-family: tahoma; font-size: 20px; text-align: center; width: 1100px; color: #4d4d4d; margin: 10px 0; }
+.select-genre div.genre-row { clear: both; width: 1100px; }
+.genre-row label.genre-name { width: 200px; height: 50px; float: left; border: 1px solid green; padding: 5px; margin: 1px; }
+.genre-row label.genre-name:hover { background: #4d4d4d; color: white; width: 200px; height: 50px; float: left; border: 1px solid green; padding: 5px; margin: 1px; }
+.select-genre div.actor-row { clear: both; width: 1100px; height: 150px; position: relative; top: 0px; }
+.actor-row table { font-family: tahoma; position: relative; left: 10px; }
+.actor-row td.left { text-align: right; padding-right: 4px; font-size: 15px; font-family: verdana; }
+.actor-row input {  width: 200px; border:1px solid #999; padding:3px 5px; }
+.actor-row button[type='submit'] .submit { width: 50px; height: 30px; color: green; }
+.actor-row span.required { color: red; }
+.actor-row div.error { font-family: tahoma; font-size: 14px; padding-top: 4px; }
+/*View styles*/
+div.search-outer { clear: both; border-bottom: 1px solid #999; width: 800px; height: 90px; cursor: pointer; }
+div.search-outer:hover { background: #3b5998; color: white; }
+div.search-outer:hover p { color: white; }
+div.search-view-title { height: 50px; width: 800px; border-bottom: 1px solid #999; margin-top: 60px; }
+.search-view-title p.specs { font-size: 17px; width: 800px; }
+.search-view-title p.totals { font-size: 15px; }
+.search-outer p.title { width: 700px; }
+.search-outer p.genres { width: 700px; }
+.search-outer p.actors { width: 700px; }
+.search-outer p.directors { width: 700px; }
+.search-outer p.ratings { width: 700px; }
+div.search-header { float: left; width: 800px; }
+.search-header div { float: left; width: 800px; }
+.search-header div.pagination { position: relative; top: -22px; left: 350px; }
+
+
+/*movie individual view*/
+div.description { width: 1165px; height: 200px; margin: 20px; clear: both;}
+.description div { float: left; padding: 2px; word-wrap: break-word;  }
+.description div.incorrect-div { width: 100%; }
+.description img { width: 140px; height: 180px; border: 2px solid #4d4d4d; padding: 3px; }
+.description p.incorrect { width: 800px; font-size: 16px; font-family: tahoma;  color: #555; }
+.description p.title { width: 950px; font-size: 25px; margin: 8px; margin-top: 6px; font-family: tahoma }
+.description p.director { font-size: 15px; margin-left: 9px; width: 800px; }
+.description p.studio { font-size: 15px; margin-left: 9px; width: 800px; }
+.description p.synopsis { margin: 10px; padding-bottom: 10px; width: 950px; font-size: 14px; word-wrap: break-word; text-align: justify; border-bottom: 1px solid #4d4d4d; }
+.description p.cast { font-size: 16px; font-family: tahoma; margin-left: 60px; color: #4d4d4d; margin-bottom: 12px; }
+.description span.cast-field { font-weight: 600; font-size: 17px; margin-left: 10px; }
+.description p.user-data { font-size: 18px; font-family: tahoma; width: 970px; margin: 8px; height: 90px; border-bottom: 1px solid #4d4d4d; border-top: 1px solid #4d4d4d; padding-top: 10px; }
+.description div.logged-user { width: 946px; border-bottom: 1px solid #4d4d4d; border-top: 1px solid #4d4d4d; margin-left: 10px; margin-bottom: 12px; padding: 12px 0; }
+.description span.watched { font-size: 15px; margin-left: 8px; width: 800px; color: #444; }
+.description p.user-rating { color: #444; font-size: 14px; margin: 4px 0 0 9px; width: 800px; }
+.description p.user-notes { color: #444; font-size: 14px; margin-left: 9px; width: 800px; }
+.description a.link { color: blue; cursor: pointer; }
+span.field { color: #4d4d4d; font-weight: 600; font-size: 17px; padding: 0 3px; }
+
+div.extra-details { float: left; width: 600px; }
+.extra-details table { color: #666; position: relative; left: 180px; }
+.extra-details td.label { width: 200px; text-align: right; padding-right: 12px; }
+
+div.reviews { position: relative; left: 184px; top: 10px; width: 970px; border-top: 1px solid #999; }
+.reviews p.title { font-family: tahoma; font-size: 20px; color: #4d4d4d; padding: 4px 0; width: 970px; }
+.reviews p.no-reviews {font-family: tahoma; font-size: 16px; color: black; padding: 4px 0; width: 970px; }
+.reviews div.review { border-bottom: 1px solid #999; margin: 3px 0; padding: 3px 10px; }
+.review p.quote { font-family: tahoma; font-size: 13px; width: 900px; }
+.review p.publication { font-family: tahoma; font-size: 11px; width: 900px; }
+.review span.critic_name { font-family: verdana; font-size: 12px; position: relative; left: 700px; top: -10px; font-weight: 0; }
+
+
+/*wannawatch view*/
+.wannawatch p.heading { width: 100%; font-size: 22px; font-family: tahoma; color: #4d4d4d; text-align: center; }
+.wannawatch-loggedout p.user-data { font-size: 18px; font-family: tahoma; width: 970px; margin: 8px; height: 90px; border-bottom: 1px solid #4d4d4d; border-top: 1px solid #4d4d4d; padding-top: 10px; }
+img.wannawatch-image { width: 60px; height: 80px; margin: 5px; }
+
+/*wannawatch view*/
+.wannawatch p.heading { width: 100%; font-size: 22px; font-family: tahoma; color: #4d4d4d; text-align: center; }
+img.wannawatch-image { width: 60px; height: 80px; margin: 5px; }
+
+/*search view styles*/
+div.search { position: relative; left: 100px; }
+.search p.user-data { font-size: 18px; font-family: tahoma; width: 970px; margin: 8px; height: 40px; border-bottom: 1px solid #4d4d4d; border-top: 1px solid #4d4d4d; padding-top: 10px; text-align: center; }
+img.search-image { width: 60px; height: 80px; margin: 5px; }
+.results img { position: relative; left: -400px; top: 150px; }
+
+/*Live search results styles*/
+div#searchview{color:white;	}
+p { margin:2px; color: #333; font-family: tahoma; font-size: 11px; word-wrap: break-word; width: 320px; }
+p.title { margin:3px; color: #000; font-family: tahoma; font-size: 13px; }
+p.specs { margin: 3px; margin-top: 6px; font-size: 14px; font-family: tahoma; }
+p.show-more { font-family: tahoma; font-size: 16px; text-align: center; color: white; }
+div.outer { clear: both; border: 1px solid #999; border-top: 0px; width: 450px; height: 93px; position: relative; left: 300px; top: -17px; cursor: pointer; background: white;}
+div.outer:hover { background: #3b5998; color: white; }
+div.outer:hover p { color: white; }
+div.left { float:left; }
+div.right { float: left; margin: 5px; }
+div.search-title { background:white; height: 25px; width: 450px; border:1px solid #999; border-top: 0px; position: relative; left: 300px; top: -17px; }
+div.show-all { width: 450px; clear: both; border: 1px solid #999; border-top: 0px; border-bottom:2px solid #4d4d4d; height: auto; position: relative; left: 300px; top: -19px; background: #3B5998; color: #fff; }
+a { text-decoration: none; }
+a.logout { color: skyblue; }
+.outer p.title { width: 350px; }
+.outer p.genres { width: 350px; }
+.outer p.actors { width: 350px; }
+.outer p.directors { width: 350px; }
+.outer p.ratings { width: 350px; }
+.show-all p.show-more { width: 350px; }
+img.livesearch { width: 65px; height: 80px; margin: 5px; }
+
+
+
+
